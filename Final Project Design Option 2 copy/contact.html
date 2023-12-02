@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Summerset Resort</title>
+        <meta name="author" content="Jade Castro">
+        <meta name="description" content="Final Resort Website">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+           <a href="index.html" aria-label="go to home page"><h1>Summerset Resort</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="green valley with mountains" width="1440" height="400">
+        </header>
+
+        <main>
+          <h2>Contact Us</h2>
+          <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+            Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="lots of trees bordering the mountains and sunset" width="710" height="270">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="my-name">Full name: <span class="required">*</span></label>
+                <input type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">Email Address <span class="required">*</span></label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-number">Phone Number <span class="required">*</span></label>
+                <input type="text" name="my-number" id="my-number" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                    <input type="radio" name="contact-pref" id="pref-email"
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+
+                <label for="my-comments">Comments <span class="required">*</span></label>
+                <textarea name="my-number" id="my-number" required></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Summerset Resort</p>
+            <p> This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
